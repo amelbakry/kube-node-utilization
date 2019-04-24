@@ -38,52 +38,47 @@ Kubernetes Node Utilization..........
 If you need the utilization based on requests and limits
 
 ```bash
-└─ $ ▶ zkubectl describe node | grep -A4 "Allocated"
+└─ $ ▶ zkubectl describe node | grep -A5 "Allocated"
 Allocated resources:
   (Total limits may be over 100 percent, i.e., overcommitted.)
   Resource                    Requests       Limits
   --------                    --------       ------
-  cpu                         7757m (99%)    6907m (88%)
+  cpu                         15794m (99%)   29932m (189%)
+  memory                      28216Mi (92%)  29140Mi (95%)
+--
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource                    Requests       Limits
+  --------                    --------       ------
+  cpu                         15402m (97%)   16512m (104%)
+  memory                      27805Mi (90%)  28825Mi (94%)
+--
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource                    Requests       Limits
+  --------                    --------       ------
+  cpu                         15827m (100%)  26702m (169%)
+  memory                      29186Mi (95%)  32234Mi (105%)
 --
 Allocated resources:
   (Total limits may be over 100 percent, i.e., overcommitted.)
   Resource                    Requests           Limits
   --------                    --------           ------
-  cpu                         7698m (98%)        28043m (359%)
+  cpu                         15232m (96%)       15232m (96%)
+  memory                      31114185932 (96%)  31114185932 (96%)
 --
 Allocated resources:
   (Total limits may be over 100 percent, i.e., overcommitted.)
   Resource                    Requests       Limits
   --------                    --------       ------
-  cpu                         3797m (99%)    23487m (618%)
+  cpu                         15816m (100%)  35436m (224%)
+  memory                      29900Mi (97%)  29900Mi (97%)
 --
 Allocated resources:
   (Total limits may be over 100 percent, i.e., overcommitted.)
-  Resource                    Requests       Limits
-  --------                    --------       ------
-  cpu                         7797m (99%)    63362m (812%)
---
-Allocated resources:
-  (Total limits may be over 100 percent, i.e., overcommitted.)
-  Resource                    Requests       Limits
-  --------                    --------       ------
-  cpu                         3792m (99%)    39082m (1028%)
---
-Allocated resources:
-  (Total limits may be over 100 percent, i.e., overcommitted.)
-  Resource                    Requests       Limits
-  --------                    --------       ------
-  cpu                         7692m (98%)    5892m (75%)
---
-Allocated resources:
-  (Total limits may be over 100 percent, i.e., overcommitted.)
-  Resource                    Requests      Limits
-  --------                    --------      ------
-  cpu                         3782m (99%)   3982m (104%)
---
-Allocated resources:
-  (Total limits may be over 100 percent, i.e., overcommitted.)
-  Resource                    Requests       Limits
-  --------                    --------       ------
-  cpu                         7732m (99%)    7707m (98%)
+  Resource                    Requests           Limits
+  --------                    --------           ------
+  cpu                         15349m (97%)       21174m (134%)
+  memory                      27099085728 (84%)  28709698464 (89%)
+
 ```
