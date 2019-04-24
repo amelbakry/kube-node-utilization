@@ -5,6 +5,8 @@ This is simple python script to get actual utilization of kubernetes nodes (work
 Note: node names are already modified
 
 ```bash
+./nodeutilization.py
+
 Kubernetes Node Utilization.......... 
 +------------------------------------------------+--------+--------+
 | NodeName                                       | CPU    | Memory |
