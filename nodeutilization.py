@@ -13,7 +13,6 @@ from terminaltables import AsciiTable
 config.load_kube_config()
 v1 = client.CoreV1Api()
 api_client = ApiClient()
-deploymentAPI = client.ExtensionsV1beta1Api()
 
 
 class Convert:
