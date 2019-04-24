@@ -38,7 +38,7 @@ Kubernetes Node Utilization..........
 If you need the utilization based on requests and limits
 
 ```bash
-└─ $ ▶ zkubectl describe node | grep -A5 "Allocated"
+└─ $ ▶ kubectl describe node | grep -A5 "Allocated"
 Allocated resources:
   (Total limits may be over 100 percent, i.e., overcommitted.)
   Resource                    Requests       Limits
