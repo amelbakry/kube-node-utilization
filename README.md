@@ -1,6 +1,6 @@
 # Kubernetes Node Utilization
 
-This is simple python script to get actual utilization of kubernetes nodes (worker and master)
+This is a simple python script to get actual utilization of kubernetes nodes (worker and master)
 
 
 ```bash
